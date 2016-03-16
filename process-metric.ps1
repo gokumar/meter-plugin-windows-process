@@ -19,6 +19,10 @@ $vm_enabled=$args[2]
 $pm_enabled=$args[3]
 $poll=$args[4]
 
+echo $cpu_enabled
+echo $vm_enabled
+echo $poll
+
 # Get the name of the computer we are running on
 $computer = get-content env:computername
 
