@@ -48,6 +48,6 @@ while(1) {
     echo $text
   }
 
-  Start-Sleep -s $process_name
+  Start-Sleep -s $poll
 }
 
